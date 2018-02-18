@@ -30,15 +30,15 @@ public class Pool{
 	
 	@Override
 	public String toString(){
-		return "Pool is cost"+price+"UAH, has"+line+"lines, is"+depth+"meters deep, has"+capacity+"liter, is covered with " + covering +".";
+		return "Pool is cost "+price+" UAH, has "+line+" lines, is "+depth+" meters deep, has "+capacity+" liter, is covered with " + covering +".";
 	}
 	
 	static void printStaticSum(){
-		System.out.println("Pool can be filled" + capacity + "liter.");
+		System.out.println("Pool can be filled " + capacity + " liter.");
 	}
 	
 	public void printSum(){
-		System.out.println("The pool can be filled"+capacity+"liter, total liter is:"+totalCapacity+".");
+		System.out.println("The pool can be filled "+capacity+" liter, total liter is: "+totalCapacity+".");
 	}
 	
 	public void resetValues(double price, double capacity, int line, double depth, String covering){
