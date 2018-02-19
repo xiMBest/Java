@@ -2,7 +2,7 @@ package demo;
 
 
 public class Pool{
-	private double price;
+	private int price;
 	private static double capacity;
 	private int line;
 	private String covering = "tile";
@@ -13,14 +13,14 @@ public class Pool{
 	public Pool(){
 	}
 	
-	public Pool(double price, double capacity, int line, double depth){
+	public Pool(int price, double capacity, int line, double depth){
 		setPrice(price);
 		setCapacity(capacity);
 		setLine(line);
 		setDepth(depth);
 	}
 	
-	public Pool(double price, double capacity, int line, double depth, String covering){
+	public Pool(int price, double capacity, int line, double depth, String covering){
 		setPrice(price);
 		setCapacity(capacity);
 		setLine(line);
@@ -41,7 +41,7 @@ public class Pool{
 		System.out.println("The pool can be filled "+capacity+" liter, total liter is: "+totalCapacity+".");
 	}
 	
-	public void resetValues(double price, double capacity, int line, double depth, String covering){
+	public void resetValues(int price, double capacity, int line, double depth, String covering){
 		setPrice(price);
 		setCapacity(capacity);
 		setLine(line);
