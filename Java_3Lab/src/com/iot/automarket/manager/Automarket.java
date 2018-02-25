@@ -51,22 +51,6 @@ private List<Automobile> automobile = new LinkedList<Automobile>();
 		return result;
 	}
 	
-	public List<Automobile> findByEnergy(String energyToFind){
-		List<Automobile> result = new LinkedList<Automobile>();
-		for (Automobile auto : automobile){
-			if (energyToFind.equals(auto.getEnergy())) {
-				result.add(auto);
-			}	
-			else if(energyToFind.equals(auto.getEnergy())) {
-				result.add(auto);
-			}
-			else if(energyToFind.equals(auto.getEnergy())) {
-				result.add(auto);
-			}	
-		}
-		return result;
-	}
-	
 	public List<Automobile> sortByYear() {
 		automobile.sort((Automobile o1, Automobile o2)->o1.getYear()-o2.getYear());
 		return automobile;
