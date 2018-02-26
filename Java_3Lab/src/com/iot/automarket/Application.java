@@ -13,10 +13,10 @@ public class Application {
 
     public static void main(String[] args) {
         Automarket market = new Automarket();
-        market.addAutomobile(new Automobile(Mark.BMW,Category.car,Energy.gasoline,EUStandart.Euro5, 2016, 400, 3, 2000, 2));
-        market.addAutomobile(new Automobile(Mark.Man,Category.track,Energy.diesel,EUStandart.Euro6, 2017, 19000, 2, 14000, 15));
-        market.addAutomobile(new Automobile(Mark.Nissan,Category.miniven,Energy.gas,EUStandart.Euro2, 2000, 700, 6, 3500, 3));
-        market.addAutomobile(new Automobile(Mark.Opel,Category.bus,Energy.gasoline,EUStandart.Euro1, 1999, 400, 30, 3700, 6));
+        market.addAutomobile(new Automobile(Mark.BMW,Category.CAR,Energy.GASOLINE,EUStandart.EURO5, 2016, 400, 3, 2000, 2));
+        market.addAutomobile(new Automobile(Mark.MAN,Category.TRACK,Energy.DIESEL,EUStandart.EURO6, 2017, 19000, 2, 14000, 15));
+        market.addAutomobile(new Automobile(Mark.NISSAN,Category.MINIVEN,Energy.GAS,EUStandart.EURO2, 2000, 700, 6, 3500, 3));
+        market.addAutomobile(new Automobile(Mark.OPEL,Category.BUS,Energy.GASOLINE,EUStandart.EURO1, 1999, 400, 30, 3700, 6));
 
 
 
