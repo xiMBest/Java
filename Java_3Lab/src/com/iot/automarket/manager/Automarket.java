@@ -29,17 +29,6 @@ private List<Automobile> automobile = new LinkedList<Automobile>();
 	public void setAutomobileList(LinkedList<Automobile> automarket) {
 		this.automobile = automarket;
 	}
-
-	public List<Automobile> findByEngine(int engineToFind){
-		List<Automobile> result = new LinkedList<Automobile>();
-		for (Automobile auto : automobile){
-			if (engineToFind == auto.getEngine()){
-				result.add(auto);
-				
-			}	
-		}
-		return result;
-	}
 	
 	public List<Automobile> findByYear(int yearToFind){
 		List<Automobile> result = new LinkedList<Automobile>();
