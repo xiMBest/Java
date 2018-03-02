@@ -31,7 +31,7 @@ public class StringProcessor {
 	    public List<String> processSentences(List<String> sentences) {
 	    	List<String> result = new LinkedList();
 	    	for(String text: sentences){
-	    	Pattern p=Pattern.compile("[a-z||A-Z||\\s]*+[?]");
+	    	Pattern p=Pattern.compile("[a-zA-Z\\s]*[?]");
 	    	Matcher m=p.matcher(text);
 	    	while(m.find()){
 	    		result.add(text.substring(m.start(), m.end()));
