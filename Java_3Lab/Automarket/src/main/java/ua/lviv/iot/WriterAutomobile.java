@@ -11,7 +11,7 @@ public class WriterAutomobile {
         try (PrintWriter writer = new PrintWriter("AutomobileStaff.csv")) {
 
             for (Automobile automobile : automobiles) {
-                writer.println(automobile.getHeaders());
+//                writer.println(automobile.getHeaders());
                 writer.println(automobile.toCSV());
             }
 

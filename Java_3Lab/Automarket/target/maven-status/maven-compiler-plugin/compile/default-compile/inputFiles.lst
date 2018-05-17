@@ -1,7 +1,13 @@
 /Users/ximbest/IdeaProjects/Automarket/src/main/java/ua/lviv/iot/Mark.java
-/Users/ximbest/IdeaProjects/Automarket/src/main/java/ua/lviv/iot/Application.java
+/Users/ximbest/IdeaProjects/Automarket/src/main/java/ua/lviv/iot/persistence/dao/AbstractDao.java
+/Users/ximbest/IdeaProjects/Automarket/src/main/java/ua/lviv/iot/persistence/dao/IDao.java
+/Users/ximbest/IdeaProjects/Automarket/src/main/java/rest/config/JaxRsConfig.java
+/Users/ximbest/IdeaProjects/Automarket/src/main/java/ua/lviv/iot/persistence/dao/AutomarketDaoImpl.java
+/Users/ximbest/IdeaProjects/Automarket/src/main/java/ua/lviv/iot/Energy.java
+/Users/ximbest/IdeaProjects/Automarket/src/main/java/ua/lviv/iot/WriterAutomobile.java
 /Users/ximbest/IdeaProjects/Automarket/src/main/java/ua/lviv/iot/Automobile.java
+/Users/ximbest/IdeaProjects/Automarket/src/main/java/ua/lviv/iot/persistence/dao/AutomarketDao.java
 /Users/ximbest/IdeaProjects/Automarket/src/main/java/ua/lviv/iot/Category.java
 /Users/ximbest/IdeaProjects/Automarket/src/main/java/ua/lviv/iot/Automarket.java
+/Users/ximbest/IdeaProjects/Automarket/src/main/java/ua/lviv/iot/AutomobileService.java
 /Users/ximbest/IdeaProjects/Automarket/src/main/java/ua/lviv/iot/EUStandart.java
-/Users/ximbest/IdeaProjects/Automarket/src/main/java/ua/lviv/iot/Energy.java

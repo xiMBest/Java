@@ -1,11 +1,11 @@
 package ua.lviv.iot;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.util.LinkedList;
 import java.util.List;
 
-import static org.junit.Assert.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class AutomarketTest {
 

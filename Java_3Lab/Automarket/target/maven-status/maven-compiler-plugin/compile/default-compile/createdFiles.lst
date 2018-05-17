@@ -1,7 +1,13 @@
 ua/lviv/iot/EUStandart.class
-ua/lviv/iot/Application.class
 ua/lviv/iot/Energy.class
+ua/lviv/iot/persistence/dao/AutomarketDao.class
+ua/lviv/iot/persistence/dao/IDao.class
 ua/lviv/iot/Automarket.class
 ua/lviv/iot/Mark.class
 ua/lviv/iot/Category.class
+ua/lviv/iot/AutomobileService.class
+ua/lviv/iot/persistence/dao/AutomarketDaoImpl.class
+ua/lviv/iot/persistence/dao/AbstractDao.class
+rest/config/JaxRsConfig.class
 ua/lviv/iot/Automobile.class
+ua/lviv/iot/WriterAutomobile.class

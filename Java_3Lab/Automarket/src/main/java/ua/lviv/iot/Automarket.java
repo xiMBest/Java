@@ -2,10 +2,13 @@ package ua.lviv.iot;
 
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Map;
 
 public class Automarket {
 
     private List<Automobile> automobile = new LinkedList<Automobile>();
+
+    private Map<Integer, Automobile> automobileMap;
 
     public Automarket() {
     }
@@ -48,5 +51,4 @@ public class Automarket {
         automobile.sort((Automobile o1, Automobile o2) -> o1.getEngine() - o2.getEngine());
         return automobile;
     }
-
 }
