@@ -5,21 +5,21 @@ public class main {
     {
         
         
-        Pool NULP = new Pool();
-        Pool LNU = new Pool(30, 10000, 5, 10, "tile");
-        Pool UKU = new Pool (50, 20000, 10, 10, "tile");
+        Pool lvivPolitech = new Pool();
+        Pool universityFranko = new Pool(30, 10000, 5, 10, "tile");
+        Pool catholicUniversity = new Pool (50, 20000, 10, 10, "tile");
         
-        System.out.println(NULP.toString());
-        System.out.println(LNU.toString());
-        System.out.println(UKU.toString());
+        System.out.println(lvivPolitech.toString());
+        System.out.println(universityFranko.toString());
+        System.out.println(catholicUniversity.toString());
         
-        NULP.resetValues(70, 15000, 5, 10, "tile");
+        lvivPolitech.resetValues(70, 15000, 5, 10, "tile");
         
-        NULP.printSum();
-        LNU.printSum();
-        UKU.printSum();
+        lvivPolitech.printSum();
+        univeersityFranko.printSum();
+        catholicUniversity.printSum();
         
-        LNU.setCapacity(23000);
+        universityFranko.setCapacity(23000);
         
         Pool.printStaticSum();
     }
